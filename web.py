@@ -26,8 +26,6 @@ for index, todo in enumerate(todos):
 
 st.text_input(label="Informa", placeholder="Ingrese el nombre del archivo",
               on_change=add_todo, key='add_todo')
-"""
-print("probando")
 
-st.session_state
-"""
+#print("probando")
+#st.session_state
